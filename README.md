@@ -175,7 +175,7 @@ This system development project aims to:
 
 ## Academic Context
 
-This project serves as a comprehensive system development initiative for a 3rd-year university degree programme, demonstrating:
+This project serves as a comprehensive system development initiative for my university degree programme, demonstrating:
 
 - **System Analysis & Design:** Complete requirements analysis and system architecture design
 - **Database Design:** Normalized database structure optimized for beauty and herbal product distribution
