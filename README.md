@@ -76,6 +76,8 @@ The cornerstone feature of this system is the implementation of FEFO inventory m
 
 ## Get Started
 
+### Frontend Setup
+
 1. Install dependencies
 
    ```bash
@@ -88,15 +90,68 @@ The cornerstone feature of this system is the implementation of FEFO inventory m
    npx expo start
    ```
 
+### Backend Setup
+
+1. Navigate to the backend directory
+
+   ```bash
+   cd backend
+   ```
+
+2. Install backend dependencies
+
+   ```bash
+   npm install
+   ```
+
+3. Start the backend server
+
+   ```bash
+   npm start
+   ```
+
+   Or for development with auto-reload:
+
+   ```bash
+   npm run dev
+   ```
+
 ## Development Information
 
-This application is built with:
+This application is built with modern technologies and follows industry best practices for scalable, maintainable software development:
 
-- **Frontend:** React Native with Expo
-- **Backend:** Node.js with Express
-- **Database:** MySQL
-- **Authentication:** JWT-based authentication
-- **Routing:** File-based routing with Expo Router
+### Frontend Technologies
+
+- **Framework:** React Native with Expo SDK
+- **Navigation:** Expo Router with file-based routing system
+- **UI Components:** Custom themed components with TypeScript support
+- **State Management:** React Context API for global state management
+- **Styling:** React Native StyleSheet with theme-based design system
+- **Development Tools:** TypeScript, ESLint, Babel for code quality and transpilation
+
+### Backend Technologies
+
+- **Runtime:** Node.js for server-side JavaScript execution
+- **Framework:** Express.js for robust web application framework
+- **Database:** MySQL for relational data management
+- **ORM/Database Interface:** Custom SQL queries with connection pooling
+- **Authentication:** JWT (JSON Web Tokens) for secure user authentication
+- **API Design:** RESTful API architecture with proper HTTP status codes
+- **Middleware:** Custom middleware for authentication, logging, and error handling
+
+### Database Architecture
+
+- **Database Engine:** MySQL 8.0+ for ACID compliance and performance
+- **Schema Design:** Normalized database structure optimized for FEFO inventory management
+- **Key Tables:** Products, Batches, Inventory, Orders, Customers, Sales Representatives
+
+### Security Implementation
+
+- **Authentication:** JWT-based stateless authentication
+- **Password Security:** Bcrypt hashing for password storage
+- **API Security:** Input validation and sanitization
+- **Access Control:** Role-based permissions system
+- **Session Management:** Token expiration and refresh mechanisms
 
 ## Technical Documentation
 
