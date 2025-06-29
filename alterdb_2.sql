@@ -1,0 +1,1 @@
+ALTER TABLE orders ADD COLUMN final_amount DECIMAL(10,2) DEFAULT NULL AFTER total_amount;
