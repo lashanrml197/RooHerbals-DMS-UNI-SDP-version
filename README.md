@@ -181,7 +181,6 @@ This project serves as a comprehensive system development initiative for my univ
 - **Database Design:** Normalized database structure optimized for beauty and herbal product distribution
 - **Full-Stack Development:** Modern web and mobile application development
 - **Business Process Optimization:** Real-world problem solving for inventory management
-- **Industry Best Practices:** Implementation of beauty care product distribution standards
 - **Project Management:** Complete SDLC implementation from conception to deployment
 
 ## Project Vision
