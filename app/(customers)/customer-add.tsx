@@ -109,16 +109,16 @@ export default function AddCustomerScreen() {
       "078",
       "079",
       // Fixed line area codes for major cities and regions
-      "011", // Colombo
-      "038", // Galle
-      "031", // Negombo
-      "081", // Kandy
-      "025", // Anuradhapura
-      "021", // Jaffna
+      "011",
+      "038",
+      "031",
+      "081",
+      "025",
+      "021",
       "027",
       "045",
       "047",
-      "055", // Badulla
+      "055",
       "026",
       "022",
       "024",
@@ -666,7 +666,6 @@ export default function AddCustomerScreen() {
   );
 }
 
-// StyleSheet containing all component styling definitions
 const styles = StyleSheet.create({
   // Main container with light background
   safeArea: {

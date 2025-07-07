@@ -432,7 +432,7 @@ export default function ProductSelection() {
           )}
         </View>
 
-        {/* Optional batch details for split orders */}
+        {/* batch details for split orders */}
         {item.is_fefo_split && item.fefo_batches && (
           <View style={styles.splitBatchesContainer}>
             {item.fefo_batches.map((batch, batchIndex) => (
@@ -997,8 +997,6 @@ export default function ProductSelection() {
   );
 }
 
-// This function is no longer needed as we're importing formatDate from OrderContext
-
 const styles = StyleSheet.create({
   contentContainer: {
     flex: 1,
@@ -1293,7 +1291,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.1,
     shadowRadius: 3,
     elevation: 5,
-    zIndex: 999, // Ensure it's always on top
+    zIndex: 999,
   },
   proceedButton: {
     flexDirection: "row",
@@ -1609,7 +1607,7 @@ const styles = StyleSheet.create({
   },
   checkboxContainer: {
     marginRight: 10,
-    padding: 5, // Added padding for better touch target
+    padding: 5,
   },
   checkboxLabel: {
     fontSize: 14,
